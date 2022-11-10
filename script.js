@@ -27,7 +27,7 @@ function createTable() {
       tdNum.innerText = rowNum;
 
       const tdVal = document.createElement("td");
-      tdVal.innerText = "value";
+      tdVal.innerText = "Value";
 
       row.appendChild(tdNum);
       row.appendChild(tdVal);
